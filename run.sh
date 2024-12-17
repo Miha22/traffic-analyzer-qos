@@ -7,7 +7,7 @@ fi
 
 if [ "$1" == "ins" ]; then
     make
-    sudo insmod packet_filter.ko
+    sudo insmod build/packet_filter.ko
 elif [ "$1" == "rm" ]; then
     sudo rmmod packet_filter
     make clean

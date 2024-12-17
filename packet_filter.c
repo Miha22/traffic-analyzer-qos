@@ -12,9 +12,8 @@
 #include <linux/tcp.h>
 #include <linux/udp.h>
 #include <linux/inet.h> 
-#include <netlink/genl/genl.h>
-
 #include <usermsg.h>
+#include <packet_filter.h>
 
 #define NETLINK_USER 31
 #define MAX_MSG_SIZE 256
